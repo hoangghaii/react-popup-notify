@@ -1,6 +1,6 @@
-import React from 'react'
-import styles from './styles.module.css'
+import Notifications from './Notifications.js'
+import NotificationContainer from './NotificationContainer'
+import NotificationManager from './NotificationManager'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { Notifications, NotificationContainer, NotificationManager }
+export default Notifications
