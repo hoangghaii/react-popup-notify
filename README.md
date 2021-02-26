@@ -10,6 +10,10 @@
 npm install --save react-popup-notify
 ```
 
+```bash
+yarn add react-popup-notify
+```
+
 ## Usage
 
 ```jsx
